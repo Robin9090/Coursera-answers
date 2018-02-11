@@ -1,7 +1,8 @@
 /* Base Styles */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 body {
@@ -11,7 +12,8 @@ body {
 h1 {
 	font-family: Brushstroke, fantasy;
 	color: #000000;
-	text-align: center;
+  text-align: center;
+  font-size: 1.75em;
 }
 
 .row {
@@ -33,12 +35,14 @@ p {
 }
 
 section {
-	border:	1px solid black;
-	background-color: grey
 	width: 100%;
 	height: 200px;
 	font-family: Helvetica;
 	color: black;
+  background-color: #999999;
+  border: 1px solid #000000;
+  margin: 0 0 25px 0;
+  padding: 0;
 }
 
 #chicken {
@@ -220,4 +224,8 @@ section {
   .col-sm-12 {
     width: 100%;
   }
+}
+
+.text-center{
+  color: #000000;
 }
